@@ -21,9 +21,9 @@ module.exports = {
     devServer: {
         contentBase: path.join(__dirname, "dist"),
         compress: true,
-        port: 3000,
         stats: "errors-only",
-        open: true
+        open: true,
+        openPage: ''
     },
     plugins: [
         new HtmlWebpackPlugin({
